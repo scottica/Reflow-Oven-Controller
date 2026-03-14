@@ -343,10 +343,6 @@ Timer1_ISR_done:
 	reti
 
 
-;------------------------------------;
-; Artin's Subroutines                ;
-;------------------------------------;
-
 ;--------------------------;
 ;PWM switching subroutine  ;
 ;--------------------------;
@@ -946,10 +942,6 @@ smart_mode_off:
     lcall display_smart_mode_state
     ljmp check_exit_smart_mode_toggle
 	
-
-;------------------------------------;
-; Rex's Subroutines                  ;
-;------------------------------------;
 
 ;---------------------------------;
 ; Subroutine for: 7-seg display   ;
@@ -2314,10 +2306,6 @@ profile_change_done:
 
     pop acc
     ret
-
-;------------------------------------;
-; Scott's Subroutines                ;
-;------------------------------------;
 
 
 
